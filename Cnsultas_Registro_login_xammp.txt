@@ -1,0 +1,17 @@
+CREATE DATEBASE proyecto_integrador_labs;
+
+CREATE TABLE usuarios_admin (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellido VARCHAR(50),
+    usuario VARCHAR(50),
+    password VARCHAR(50)
+);
+
+INSERT INTO usuarios_admin (nombre, apellido, usuario, password) VALUES
+('Wilka Daniel', 'Condori Ventura', 'will', '1234'),
+('Franco', 'Comejo', 'fran', '321'),
+('Diego', 'Quispe', 'diego', '456'),
+('Adam', 'Samder', 'adam', '789'),
+('Ricardo', 'Lara', 'ric', '741'),
+('Jesus', 'Rocha', 'jesus', '123456');
